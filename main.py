@@ -23,5 +23,5 @@ while True:
         print('Bye')
         break
     else:
-        print('Wring input, try again')
+        print('Wrong input, try again')
         continue
