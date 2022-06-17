@@ -34,14 +34,14 @@ class CRUD:
             car = self.check_id(id_)["fields"]
             print(f'Update auto: {car}')
             req = self.table.update(id_, {
-                'Marka': input('Введите марку машины: ') or car["Marka"],
-                'Model': input('Введите модель машины: ') or car["Model"],
-                'Year': int(input('Введите годы выпуска машины: ')) or int(car["Year"]),
-                'Volume': float(input('Введите объем двигателя машины: ')) or float(car["Volume"]),
-                'Color': input('Введите цвет машины: ') or car["Color"],
-                'Machine type': input('Введите тип кузова машины: ') or car["Machine type"],
-                'km': int(input('Введите пробег машины: ')) or int(car["km"]),
-                'Price': float(input('Введите стоимость машины: ')) or float(car["Price"])
+                'Marka': input('Введите марку машины: '),
+                'Model': input('Введите модель машины: '),
+                'Year': int(input('Введите годы выпуска машины: ')),
+                'Volume': float(input('Введите объем двигателя машины: ')),
+                'Color': input('Введите цвет машины: '),
+                'Machine type': input('Введите тип кузова машины: '),
+                'km': int(input('Введите пробег машины: ')),
+                'Price': float(input('Введите стоимость машины: '))
                 })
             
             return req
