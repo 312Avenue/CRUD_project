@@ -1,3 +1,6 @@
 pytho3 -m venv venv
 
 pip install pyairtable
+
+
+https://github.com/312Avenue/CRUD_hacathon2.0 - Вторая версия
