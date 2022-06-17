@@ -1,0 +1,2 @@
+pytho3 -m venv venv
+pip install pyairtable
